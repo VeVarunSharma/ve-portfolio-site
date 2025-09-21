@@ -27,7 +27,7 @@ export default function Page() {
                             <BlurFade delay={BLUR_FADE_DELAY}>
                                 <TypingAnimation
                                     className="text-3xl text-left font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                                    text={"Hi, I'm Ve (Varun) Sharma"}
+                                    text={"Hi, I'm Ve Sharma"}
                                 />
                             </BlurFade>
                             <BlurFadeText className="max-w-[600px] md:text-xl " delay={BLUR_FADE_DELAY} text={DATA.description} />
@@ -126,7 +126,9 @@ export default function Page() {
                     <div className="flex flex-wrap gap-1">
                         {DATA.skills.map((skill, id) => (
                             <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                                <Badge key={skill}>{skill}</Badge>
+                                <motion.div whileHover={{ scale: 1.1 }}>
+                                    <Badge key={skill}>{skill}</Badge>
+                                </motion.div>
                             </BlurFade>
                         ))}
                     </div>

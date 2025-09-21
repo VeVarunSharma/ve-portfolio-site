@@ -1,4 +1,5 @@
 import BlurFade from '@/components/magicui/blur-fade';
+import { motion } from 'framer-motion';
 
 const localImagesDataStore = [
     '/photo_gallery/GDSCDevFest (19 of 32).JPG',
@@ -21,7 +22,9 @@ export function LandingGallery() {
             <div className="columns-2 gap-4 sm:columns-3">
                 {localImagesDataStore.map((imageUrl, idx) => (
                     <BlurFade key={imageUrl} delay={0.25 + idx * 0.05} inView>
+                        <motion.div whileHover={{ scale: 1.1 }}>
                             <img className="mb-4 size-full rounded-lg object-contain" src={imageUrl} alt={`Random stock image ${idx + 1}`} />
+                        </motion.div>
                     </BlurFade>
                 ))}
             </div>
