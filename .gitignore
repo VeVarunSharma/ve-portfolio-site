@@ -80,3 +80,7 @@ terraform.rc
 
 # IDEs and editors
 .vscode
+
+
+**/test-results
+**/playwright-report

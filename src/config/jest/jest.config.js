@@ -19,7 +19,7 @@ module.exports = {
     verbose: true,
     collectCoverage: true,
     coveragePathIgnorePatterns: ['<rootDir>/test/test-utils.js'],
-    testPathIgnorePatterns: ['<rootDir>/cypress/integration'],
+    testPathIgnorePatterns: ['<rootDir>/e2e/'],
     // ignore cypress
     modulePathIgnorePatterns: ['./cypress'],
     transformIgnorePatterns: [`node_modules/(?!(?:.pnpm/)?(${esmModules.join('|')}))`],

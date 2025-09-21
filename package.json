@@ -13,8 +13,8 @@
         "test:ci": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config --maxWorkers=2 --ci",
         "test": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config",
         "validate-circle-ci": "circleci config validate",
-        "ai-e2e-test": "npx shortest",
-        "ai-e2e-test:ci": "npx shortest --headless"
+        "test:e2e": "playwright test --config=src/config/playwright/playwright.config.ts",
+        "postinstall": "playwright install"
     },
     "jest": {
         "testEnvironment": "jsdom"
@@ -50,7 +50,7 @@
         "unified": "^11.0.5"
     },
     "devDependencies": {
-        "@antiwork/shortest": "^0.3.0",
+        "@playwright/test": "^1.42.1",
         "@babel/preset-react": "^7.27.1",
         "@jest/globals": "^29.7.0",
         "@swc/jest": "^0.2.39",

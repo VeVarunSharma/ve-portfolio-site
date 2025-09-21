@@ -9,7 +9,7 @@ This repository contains the source code for Ve's portfolio site, built using mo
 - **Frontend**: Built with Next.js 14 and React, styled using TailwindCSS and Shadcn/UI.
 - **Backend**: Minimal backend logic, primarily focused on serving static and dynamic content.
 - **Configuration**: Centralized in `src/data/resume.tsx` for easy customization.
-- **Testing**: Unit, integration, and E2E tests using Jest and the Shortest framework.
+- **Testing**: Unit, integration, and E2E tests using Jest and Playwright.
 - **Deployment**: Dockerized application with support for Google Cloud Platform (GCP) Artifact Registry and Terraform for infrastructure management.
 
 ## Developer Workflows
@@ -85,22 +85,17 @@ This repository contains the source code for Ve's portfolio site, built using mo
 
 #### E2E Tests
 
-- Run E2E tests locally:
+- Run E2E tests:
     ```bash
-    pnpm run ai-e2e-testing
+    pnpm run e2e
     ```
-- Run E2E tests in CI/CD:
-    ```bash
-    pnpm run ai-e2e-testing:ci
-    ```
-    Use the `--headless` flag for CI environments.
 
 ## Project-Specific Conventions
 
 - **Configuration**: All major site settings are centralized in `src/data/resume.tsx`.
 - **Styling**: TailwindCSS is used for styling, with utility-first class names.
 - **Testing**: Jest is configured for both frontend and backend tests, with TypeScript support.
-- **E2E Framework**: Shortest framework leverages AI for pixel-based interaction testing.
+- **E2E Framework**: Playwright is used for end-to-end testing.
 
 ## External Dependencies
 
@@ -108,11 +103,12 @@ This repository contains the source code for Ve's portfolio site, built using mo
 - **Terraform**: Manages infrastructure as code.
 - **CircleCI**: Handles CI/CD pipelines.
 - **Shortest Framework**: Provides AI-driven E2E testing capabilities.
+- **Shortest Framework**: Provides AI-driven E2E testing capabilities.
 
 ## Notes for AI Agents
 
 - Focus on maintaining the centralized configuration in `src/data/resume.tsx`.
-- Follow the established testing workflows for Jest and Shortest.
+- Follow the established testing workflows for Jest and Playwright.
 - Ensure Docker and Terraform commands are used as described for deployment and infrastructure management.
 - Adhere to TailwindCSS conventions for styling.
 
