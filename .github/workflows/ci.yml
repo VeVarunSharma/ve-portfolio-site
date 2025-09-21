@@ -1,0 +1,45 @@
+name: CI
+
+on:
+    push:
+        branches: ['**']
+    pull_request:
+        branches: [main]
+
+jobs:
+    unit-integration-tests:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [22.x]
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: Install pnpm
+              run: corepack enable && corepack prepare pnpm@latest-8 --activate
+            - name: Install dependencies
+              run: pnpm install
+            - name: Run unit and integration tests
+              run: pnpm test:ci
+
+    e2e-tests:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [22.x]
+        needs: unit-integration-tests
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: Install pnpm
+              run: corepack enable && corepack prepare pnpm@latest-8 --activate
+            - name: Install dependencies
+              run: pnpm install
+            - name: Run E2E tests
+              run: pnpm test:e2e

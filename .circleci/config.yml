@@ -3,7 +3,7 @@ version: 2.1
 jobs:
     unit-and-integration-tests:
         docker:
-            - image: node:18.17.0-slim
+            - image: node:22.11.0-slim
         resource_class: large
         parallelism: 10
         steps:
@@ -32,9 +32,9 @@ jobs:
                   command: |
                       pnpm run test:ci
 
-    ai-e2e-tests:
+    e2e-tests:
         docker:
-            - image: node:18.17.0-slim
+            - image: node:22.11.0-slim
         resource_class: large
         parallelism: 10
         steps:
@@ -59,13 +59,13 @@ jobs:
                   paths:
                       - .pnpm-store
             - run:
-                  name: Run AI E2E Tests
+                  name: Run E2E Tests
                   command: |
-                      pnpm run ai-e2e-test:ci
+                      pnpm run test:e2e
 
 workflows:
     version: 2
     all_tests:
         jobs:
             - unit-and-integration-tests
-            - ai-e2e-tests
+            - e2e-tests
