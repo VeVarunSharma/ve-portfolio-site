@@ -113,18 +113,20 @@ export const DATA = {
             location: 'San Franciso, California, United States',
             title: 'Head of Engineering',
             logoUrl: '/logos/ygg_logo.png',
-            start: 'December 2024',
+            start: 'October 2024',
             end: 'Present',
-            description: `
-           Oversaw and managed an engineering team of 20 with a total team size of 100. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands, and more
-
-- Drove a 2.5x increase in developer throughput by rebuilding infrastructure, & improving dev productivity by integrating AI into dev workflows
-Spearheaded R&D and prototyping of AI agents to improve on-chain transaction efficiency using stablecoins.
-
-- Successfully executed an engineering re-organization resulting in saving the company nearly in $1M of annual cost savings while increasing throughput 
-
-- Led the Partnership Engineering team, working with the Partnerships team to technically onboard and integrate our product and API with external gaming and Web3 partners running on GCP.
-            `
+            description: ` Led and managed a team of 20 engineers within a 100 person org.
+            
+            - Oversaw technical strategy for the world's first and largest Web3 gaming DAO. Backed by a16z, Polygon Labs, Bitkraft Ventures amassing a ~$70M USD Treasury.
+            
+            - Increased developer throughput by 2.5x by integrating, Gemini Code Assist and using custom AI IDE rules improving automated code review & velocity.
+            
+            - Managed an $8.4M engineering & product budget delivering $1M in annual cost savings by leading a strategic re-organization and technical roadmap optimization.
+           
+            - Led the full-stack development and architecture for a decentralized app (dApp), utilizing Next.js, TypeScript, Solidity,  Thirdweb on a multi-chain environment.
+           
+            - Directed the Partnership Engineering team, architecting API integrations and leading the technical onboarding for key gaming and Web3 partners.
+ `
         },
         {
             company: 'BlackFin Labs',
@@ -135,16 +137,10 @@ Spearheaded R&D and prototyping of AI agents to improve on-chain transaction eff
             logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
             start: 'Oct 2024',
             end: 'Present',
-            description: ` 
-            BlackFin Labs helps businesses maximize their cloud ROI with expertise FinOps (financial operations on the cloud), AI implementations,
-and customized Google Cloud solutions for business growth.
-
-- Functioned in a Cloud Sales / Customer Engineering capacity, directly assisting diverse clients to reduce cloud spend by an average of 30% through GCP Cloud optimizations and infrastructure modernization
-
-- Diagnosed and resolved scaling issues impacting a GCP customer's Cloud SQL and Kubernetes cluster. Recommendations achieved high uptime and low latency for over 20 million daily Cloud SQL calls.
-
-- Implemented AI solutions for clients and provided cloud modernization services.
-            `
+            description: ` Functioned in a technical pre-sales and consulting capacity, advising diverse clients & startup founders on cloud adoption and AI implementation, reducing cloud spend by an average of 30% through infrastructure modernization.
+            
+            - Deployed open-sourced LLM models on serverless GPUs for a Healthtech startup reducing inference costs by 40% compared to proprietary APIs while meeting HIPAA compliance.
+                        `
         },
         {
             company: 'Adauris',
@@ -171,23 +167,26 @@ and customized Google Cloud solutions for business growth.
             start: 'Oct 2020',
             end: 'Sept 2024',
             description: `
-            Adauris transforms publications' & content marketers' written assets into customized, podcast-like audio. 
-Adauris works with 200+ publications all around the globe, and are backed by some of the top accelerators & VCs across N.A. including Google, The XX, Antler US, Founders Inc. Alliance of Angels, Cross Cut Ventures, and Morgan Stanely.
-
-As CTO here are some milestones I’ve been able to achieve:
-
-- Productionized A.I. models for audio generation and optimize user listening experience, resulting in a 40% increase in user engagement.
-Served 10+ million end-listeners
-
-- Functioned as the Lead Sales Engineer, partnering with the sales team to onboard and integrate our B2B SaaS product with our first 100 B2B customers, directly contributing to initial traction and securing over $1M in funding
-
-- Secured $1.3M from top venture capitalists, including Antler US, Alliance of Angels, Founders Inc., CrossCut Ventures, & Morgan Stanley.
-
-- Managed executive stakeholders including our investors, VCs, board of advisors, and the internal company board.
-
-- Reduced GCP Cloud costs by 33% through strategic infrastructure optimization and resource management
-
-- Successfully secured over $750K in R&D grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
+                Key Accomplishments:
+                - Recognized as a Top 100 AI Startup in Canada (2024) by ALL IN AI.
+                - Secured ($2.05M) $1.3M in VC funding + $750k R&D grants by developing investor-facing technical roadmaps and led technical due diligence with stakeholders.
+                - Moved to Sr. Tech advisor from Oct 2024 - June 2025 leading up to acquisition.
+            
+            
+                Cloud Infrastructure:
+                - Architected and built a full-stack AI SaaS platform on a multi-cloud (GCP/AWS + Azure) environment, scaling to serve 10M+ end-users with a tech stack including Next.js, Chakra UI, Python, Firebase, Firestore, PostgreSQL.
+                - Reduced monthly GCP & AWS costs by 33% by re-architecting stateful services to serverless functions, right sizing resources on Cloud SQL, EKS K8s
+                - Served as the lead Solution Engineer for our first 100 B2B customers, partnering with their technical teams to lead Proofs-of-Concept (PoCs) and integrating our AI Audio API for customers ranging from SME to enterprise level.
+            
+            
+                AI/ML & Model Deployment:
+                -Productionized A.I. models for audio generation and optimized user listening experience, resulting in a 40% increase in user engagement.
+                - Designed LLM optimization strategies for Claude & Gemini models, via  temperature controls, & few-shot learning to improve transformation accuracy⁠⁠⁠⁠​.
+            
+            
+                System Architecture & Performance:
+                - Architected RSS pipeline with optimized processing times (2-hour narrations processed in ~1 minute).
+                - Architected a microservices re-architecture improving system efficiency and decreasing downtime by 25%.
                             `
         },
         {
