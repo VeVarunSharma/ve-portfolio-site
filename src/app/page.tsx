@@ -137,7 +137,6 @@ export default function Page() {
                     <SkillsCloud />
                 </div>
             </section>
-
             <section id="news-articles">
                 <div className="space-y-12 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -204,6 +203,25 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            <section id="thought-leadership">
+                <div className="flex min-h-0 flex-col gap-y-3">
+                    <BlurFade delay={BLUR_FADE_DELAY * 17}>
+                        <h1 className="text-3xl font-bold">Tech Ecosystem & Thought Leadership</h1>
+                    </BlurFade>
+                    <div className="space-y-4">
+                        {DATA.thoughtLeadership.map((item, id) => (
+                            <BlurFade key={item.title} delay={BLUR_FADE_DELAY * 18 + id * 0.05}>
+                                <motion.div whileHover={{ scale: 1.1 }}>
+                                    <div className="p-4 border rounded-lg shadow-md">
+                                        <h3 className="text-lg font-semibold">{item.title}</h3>
+                                        <p className="text-muted-foreground text-sm">{item.description}</p>
+                                    </div>
+                                </motion.div>
+                            </BlurFade>
+                        ))}
+                    </div>
+                </div>
+            </section>
             <section id="activities">
                 <div className="space-y-12 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -220,6 +238,7 @@ export default function Page() {
                             </div>
                         </div>
                     </BlurFade>
+
                     <BlurFade delay={BLUR_FADE_DELAY * 14}>
                         <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
                             {DATA.activities.map((activity, id) => (

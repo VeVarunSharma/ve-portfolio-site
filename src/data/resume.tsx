@@ -1189,5 +1189,25 @@ export const DATA = {
             image: '/articles/ny_vc_network.png',
             video: ''
         }
+    ],
+    thoughtLeadership: [
+        {
+            title: 'Frequent speaker & panelist',
+            description:
+                'Presented at 40+ tech events, including Google I/O, Collision Conf, and Google Developer Fests, addressing developer and leadership audiences.'
+        },
+        {
+            title: 'AI Policy Recommendations',
+            description:
+                'Collaborated with Google Public Policy team to present AI policy recommendations to government officials and Google executives.'
+        },
+        {
+            title: 'Cloud Cost-Optimization Workshops',
+            description: 'Co-hosted workshops with Google For Startups for 55 Seed-Series A+ CEOs & CTOs.'
+        },
+        {
+            title: 'Google DeepMind Gemini Program',
+            description: 'Provided technical feedback to shape product development and AI safety of GDM models.'
+        }
     ]
 } as const;
