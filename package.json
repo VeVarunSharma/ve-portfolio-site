@@ -50,9 +50,9 @@
         "unified": "^11.0.5"
     },
     "devDependencies": {
-        "@playwright/test": "^1.42.1",
         "@babel/preset-react": "^7.27.1",
         "@jest/globals": "^29.7.0",
+        "@playwright/test": "^1.55.0",
         "@swc/jest": "^0.2.39",
         "@tailwindcss/typography": "^0.5.18",
         "@testing-library/jest-dom": "^4.2.4",
