@@ -180,7 +180,7 @@ export const DATA = {
             
             
                 AI/ML & Model Deployment:
-                -Productionized A.I. models for audio generation and optimized user listening experience, resulting in a 40% increase in user engagement.
+                - Productionized A.I. models for audio generation and optimized user listening experience, resulting in a 40% increase in user engagement.
                 - Designed LLM optimization strategies for Claude & Gemini models, via  temperature controls, & few-shot learning to improve transformation accuracy⁠⁠⁠⁠​.
             
             
