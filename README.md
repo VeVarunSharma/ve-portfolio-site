@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ve-varun-sharma/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/ve-varun-sharma/ve-portfolio-site/tree/main) [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![Next.JS](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/vesharma-dev/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/vesharma-dev/ve-portfolio-site/tree/main) [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![Next.JS](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=en)
 
 # Ve's Portfolio Site
@@ -7,11 +7,11 @@ This is a portfolio site for Ve to highlight his technical career and progress. 
 
 # Features
 
--   Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
--   Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
--   Includes a blog
--   Responsive for different devices
--   Optimized for Next.js and Vercel
+- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
+- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+- Includes a blog
+- Responsive for different devices
+- Optimized for Next.js and Vercel
 
 # Getting Started Locally
 
@@ -123,9 +123,9 @@ There's also CI/CD configured via CircleCI.
 
 #### Useful resources on setting up Jest Testing Environments in Next:
 
--   https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment
--   https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be
--   https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany
+- https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment
+- https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be
+- https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany
 
 ### E2E Testing
 
@@ -149,4 +149,4 @@ You'll want to make sure the --headless flag is on if running said tests in a CI
 
 ## TODO
 
--   Add web3 functionality such as the ability to mint a Ve Coin
+- Add web3 functionality such as the ability to mint a Ve Coin

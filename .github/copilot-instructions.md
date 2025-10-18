@@ -18,7 +18,7 @@ This repository contains the source code for Ve's portfolio site, built using mo
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/ve-varun-sharma/ve-portfolio-site.git
+    git clone https://github.com/vesharma-dev/ve-portfolio-site.git
     cd ve-portfolio-site
     ```
 2. Install dependencies:

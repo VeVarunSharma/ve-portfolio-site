@@ -80,7 +80,7 @@ export const DATA = {
             },
             GitHub: {
                 name: 'GitHub',
-                url: 'https://github.com/ve-varun-sharma',
+                url: 'https://github.com/vesharma-dev',
                 icon: Icons.github,
                 navbar: true
             },
@@ -360,7 +360,7 @@ export const DATA = {
                 },
                 {
                     type: 'Source',
-                    href: 'https://github.com/ve-varun-sharma/blackfinlabs-landing-page',
+                    href: 'https://github.com/vesharma-dev/blackfinlabs-landing-page',
                     icon: <Icons.github className="size-3" />
                 }
             ],
