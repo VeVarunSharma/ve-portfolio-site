@@ -64,7 +64,7 @@ export const DATA = {
     ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
-        { href: 'https://medium.com/@vesharma.dev', icon: NotebookIcon, label: 'Blog' },
+        { href: 'https://medium.com/@vevarunsharma', icon: NotebookIcon, label: 'Blog' },
         { href: '#projects', icon: CodeIcon, label: 'Projects' },
         { href: 'mailto:ve@vesharma.dev', icon: MailIcon, label: 'Email' }
     ],
@@ -80,13 +80,13 @@ export const DATA = {
             },
             GitHub: {
                 name: 'GitHub',
-                url: 'https://github.com/vesharma-dev',
+                url: 'https://github.com/vevarunsharma',
                 icon: Icons.github,
                 navbar: true
             },
             LinkedIn: {
                 name: 'LinkedIn',
-                url: 'https://www.linkedin.com/in/varun-d-sharma/',
+                url: 'https://www.linkedin.com/in/vevarunsharma/',
                 icon: Icons.linkedin,
                 navbar: true
             },
@@ -98,7 +98,7 @@ export const DATA = {
             },
             instagram: {
                 name: 'Instagram',
-                url: 'https://www.instagram.com/vesharma.dev/',
+                url: 'https://www.instagram.com/vevarunsharma/',
                 icon: Icons.instagram,
                 navbar: true
             }
