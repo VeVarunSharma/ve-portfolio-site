@@ -15,8 +15,10 @@ export const DATA = {
     \n\nHis experience spans cloud architecture, full stack development, applied A.I., and
     leading high-performing teams.\nAll while navigating the competitive startup landscape with proven success,
     including acceptance into prestigious accelerator programs & being venture backed like [Morgan Stanley (and being listed on the NASDAQ in times Square!🤩)](https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm/), Google for Startups, and The XX - all with 1% acceptance rates. 
-    \n\nVe continues to be an [ecosystem voice for Google](https://youtu.be/8yzOpUHH78c?t=2557), Collision Conf, the League of Innovators, and other organizations speaking on topics around A.I, Cloud Infrastructure, and technical entrepreneurship around North America. 
-\n\nToday, Ve is the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
+    \n\nVe continues to be an ecosystem voice for developers & technical founders in groups such as Microsoft, Google Developer Groups, Vancouver.dev, the League of Innovators, and other organizations speaking on topics around A.I, Dev Tools, Cloud Infrastructure, and technical entrepreneurship around North America. 
+\n\nAfter Adauris, Ve went on to be the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
+
+\n\nToday, Ve is at Microsoft as a Senior Solution Engineer on the Cloud & AI team focusing on Dev Tools, working on Github Copilot & Agentic DevOps.
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -72,12 +74,6 @@ export const DATA = {
         email: 've@vesharma.dev',
         tel: '+4375807573',
         social: {
-            Resume: {
-                name: 'Resume',
-                url: 'https://storage.googleapis.com/ve-portfolio-site/resume/ve_resume%20copy.pdf',
-                icon: FileText,
-                navbar: false
-            },
             GitHub: {
                 name: 'GitHub',
                 url: 'https://github.com/vevarunsharma',
@@ -107,14 +103,29 @@ export const DATA = {
 
     experience: [
         {
+            company: 'Microsoft',
+            href: 'https://azure.microsoft.com/en-us/solutions/devops',
+            badges: [],
+            location: 'Vancouver, British Columbia, Canada',
+            title: 'Senior Solution Engineer - Cloud & AI - Dev Tools',
+            logoUrl: '/logos/microsoft_logo_small.jpg',
+            start: 'November 2025',
+            end: 'Present',
+            description: `Working on Github Copilot & Agentic DevOps. 
+
+I work with developers to help them utilize copilot and Agentic DevOps to accelerate productivity and to build the next generation of AI applications. 
+
+As well as working with technical executives to bring copilot to market.`
+        },
+        {
             company: 'YGG - Yield Guild Games',
             href: 'https://yieldguild.io',
             badges: [],
-            location: 'San Franciso, California, United States',
+            location: 'Metaverse',
             title: 'Head of Engineering',
             logoUrl: '/logos/ygg_logo.png',
             start: 'October 2024',
-            end: 'Present',
+            end: 'November 2025',
             description: ` Led and managed a team of 20 engineers within a 100 person org.
             
             - Oversaw technical strategy for the world's first and largest Web3 gaming DAO. Backed by a16z, Polygon Labs, Bitkraft Ventures amassing a ~$70M USD Treasury.
