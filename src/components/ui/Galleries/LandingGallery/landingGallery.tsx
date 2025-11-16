@@ -2,17 +2,18 @@ import BlurFade from '@/components/magicui/blur-fade';
 import { motion } from 'framer-motion';
 
 const localImagesDataStore = [
-    '/photo_gallery/GDSCDevFest (19 of 32).JPG',
-    '/photo_gallery/GDSCDevFest (20 of 32).JPG',
+    '/photo_gallery/github_universe.jpg',
+    '/photo_gallery/github_hq.jpg',
     '/photo_gallery/gdsg_fireside_chat.JPG',
     '/photo_gallery/google_happy_hour_io.JPG',
-    '/photo_gallery/google_montreal.JPG',
+    '/photo_gallery/msft_booth_ghu.jpg',
     '/photo_gallery/google_next.JPG',
     '/photo_gallery/men_in_tech.jpeg',
     '/photo_gallery/imprint_ve.JPG',
     '/photo_gallery/ms_adauris_offices.JPG',
     '/photo_gallery/startup_fest.jpg',
     '/photo_gallery/ment_in_tech_pannel.JPG',
+    '/photo_gallery/ygg_ve_and_apollo.png',
     '/photo_gallery/canada_day_panel_2.png'
 ];
 
