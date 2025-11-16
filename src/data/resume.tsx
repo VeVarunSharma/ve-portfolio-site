@@ -66,7 +66,7 @@ export const DATA = {
     ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
-        { href: 'https://medium.com/@vevarunsharma', icon: NotebookIcon, label: 'Blog' },
+        { href: 'https://dev.to/@vevarunsharma', icon: NotebookIcon, label: 'Blog' },
         { href: '#projects', icon: CodeIcon, label: 'Projects' },
         { href: 'mailto:ve@vesharma.dev', icon: MailIcon, label: 'Email' }
     ],
@@ -147,7 +147,7 @@ As well as working with technical executives to bring copilot to market.`
             title: 'CEO & Fractional CTO',
             logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
             start: 'Oct 2024',
-            end: 'Present',
+            end: 'November 2025',
             description: ` Functioned in a technical pre-sales and consulting capacity, advising diverse clients & startup founders on cloud adoption and AI implementation, reducing cloud spend by an average of 30% through infrastructure modernization.
             
             - Deployed open-sourced LLM models on serverless GPUs for a Healthtech startup reducing inference costs by 40% compared to proprietary APIs while meeting HIPAA compliance.
@@ -161,7 +161,7 @@ As well as working with technical executives to bring copilot to market.`
             title: 'Senior Technical Advisor & Co-Founder',
             logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Sept 2024',
-            end: 'Present',
+            end: 'July 2025',
             description: `
            Leveraging my deep understanding of the company's technology stack and strategic direction, I provide expert guidance on technical strategy, product development, and industry trends.
            
